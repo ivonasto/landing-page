@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;400;700&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 250px;
+    gap: 100px;
+}
+
+main {
+    flex: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px;
+    gap: 50px;
+}
+
+.square {
+    box-sizing: border-box;
+    border-color: #3882F6;
+    width: 190px;
+    height: 190px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: thick;
+}
+
+.container-two .container {
+    display: flex;
+    max-width: 190px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-two h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two .title {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    min-width: 150px;
+}
+
+.container-one {
+    display: flex;
+    padding: 100px 250px;
+    justify-content: space-between;
+    min-height: 250px;
+    flex-wrap: wrap;
+
+
+}
+
+.right-side {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.left-side button {
+    border-radius: 7px;
+    border-style: none;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container-two {
+    background-color: white;
+
+}
+
+.container-three {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.inspiring-quote {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reference {
+    text-align: end;
+    color: black;
+    font-weight: 700;
+}
+
+.inspiring-quote {
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 100px 250px;
+}
+
+.container-cta {
+    background-color: #3882F6;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 40px 100px;
+    border-radius: 7px;
+}
+
+.cta {
+    font-weight: 700;
+}
+
+.how-to {
+    font-weight: 200;
+}
+
+.right-cta button {
+    border-style: solid;
+    border-radius: 7px;
+    border-color: white;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
